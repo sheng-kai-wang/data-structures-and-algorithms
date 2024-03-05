@@ -4,14 +4,14 @@ import java.util.List;
 public class Main
 {
 	public static void main(String[] args) {
-        int[] array = new int[]{3, 1, 4, 1, 5, 9, 2, 6, 5};
-        // int[] array = new int[]{2, 7, 1, 8, 3, 6, 5, 4, 9};
-        // int[] array = new int[]{4, 8, 5, 2, 7, 3, 1, 6, 9};
-        // int[] array = new int[]{1, 3, 5, 7, 9, 2, 4, 6, 8};
-        quicksort(array, 0, array.length - 1);
-        System.out.println("Sorted list: " + array);
-        for (int i : array) System.out.print(i + " ");
-        System.out.println();
+            int[] array = new int[]{3, 1, 4, 1, 5, 9, 2, 6, 5};
+            // int[] array = new int[]{2, 7, 1, 8, 3, 6, 5, 4, 9};
+            // int[] array = new int[]{4, 8, 5, 2, 7, 3, 1, 6, 9};
+            // int[] array = new int[]{1, 3, 5, 7, 9, 2, 4, 6, 8};
+            quicksort(array, 0, array.length - 1);
+            System.out.println("Sorted list: " + array);
+            for (int i : array) System.out.print(i + " ");
+            System.out.println();
 	}
 	
 	public static void quicksort(int[] array, int left, int right) {
