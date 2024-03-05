@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 public class Main
 {
@@ -9,9 +8,7 @@ public class Main
             // int[] array = new int[]{4, 8, 5, 2, 7, 3, 1, 6, 9};
             // int[] array = new int[]{1, 3, 5, 7, 9, 2, 4, 6, 8};
             quicksort(array, 0, array.length - 1);
-            System.out.println("Sorted list: " + array);
-            for (int i : array) System.out.print(i + " ");
-            System.out.println();
+            System.out.println("Sorted list: " + Arrays.toString(array));
 	}
 	
 	public static void quicksort(int[] array, int left, int right) {
