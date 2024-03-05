@@ -16,7 +16,7 @@ public class Main
 	
 	public static void quicksort(int[] array, int left, int right) {
         
-        // stop the recursive
+        // stop the recursion
         int subArrayLength = right - left;
         if (subArrayLength < 1) return;
         else if (subArrayLength == 1) {
@@ -66,7 +66,7 @@ public class Main
             pivot = l;
         }
         
-        // recursive
+        // recursion
         quicksort(array, left, pivot - 1);
         quicksort(array, pivot + 1, right);
     }
